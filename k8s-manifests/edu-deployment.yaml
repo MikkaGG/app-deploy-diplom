@@ -29,7 +29,7 @@ spec:
       volumes:
       - name: study-plans-storage
         hostPath:
-          path: /home/egor/Рабочий\ стол/my_project/StudyPlans
+          path: /mnt/my_project/StudyPlans
       - name: chromadb-storage
         hostPath:
-          path: /home/egor/Рабочий\ стол/my_project/chromadb_store
+          path: /mnt/my_project/chromadb_store
