@@ -13,8 +13,6 @@ spec:
       labels:
         app: edu-doc-compare
     spec:
-      imagePullSecrets:
-      - name: dockerhub-secret
       containers:
       - name: edu-doc-compare
         image: docker.io/mikkagg/edu_doc_compare:latest
